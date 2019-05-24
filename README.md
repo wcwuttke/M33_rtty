@@ -11,6 +11,6 @@
 <li>Convert LF to CRLF</li>
 <li>Line wrap at 68 or 72 characters</li>
 <li>Macros. 10 programmable macros are available using the Escape key plus a number 0-9 from the M33 keyboard.</li>
-<li>Debug mode. Prints a '&lt;' for letters and a '&gt;' for figures</li>
+<li>Debug mode. Prints a '&lt;' for figures and a '&gt;' for letters</li>
 <li>All features programmable via the Arduino USB programming port at 9600 bps, using the Escape key.</li>
 </ol>
