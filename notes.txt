@@ -1,0 +1,25 @@
+Menu Items:
+
+Main Menu. ESC to quit
+1. Machine Type: 32
+2. Baud: 45
+3. Reader Control: TTY Buffer
+4. Echo: ON
+5. UOS: OFF
+6. CRLF: OFF
+7. Line Wrap: 68
+8. Debug: OFF
+9. Macros: ON
+
+where:
+
+Machine_Type = 32 or 33
+Baud = 45, 50, 75, or 100 Baudot only. For M33, fixed at 110.
+Reader Control = None, CTS (from modem), TTY Buffer (64 characters)
+Echo = ON or OFF. Local echo.
+UOS = ON or OFF. Unshift on Space.
+CRLF = ON or OFF. For unix or OS X files using LF as newline, adds CR.
+Line Wrap = None, 68, or 72 characters. The 2 common values.
+Debug = ON or OFF. Prints '<' or '>' for figures and letters.
+Macros = ON/OFF, List, Edit. Macros can be up to 72 characters long. Use a '>' for CRLF and a '*' for
+		 end-of-line (not required, but helpful to see spaces at the end of a line).
